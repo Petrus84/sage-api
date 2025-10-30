@@ -1,0 +1,38 @@
+{
+  "name": "sage-nfm-api",
+  "version": "1.0.0",
+  "description": "Sistema SAGE-NFM - API Neuropsicológica Centralizada",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "node api/index.js",
+    "start": "node api/index.js",
+    "test": "echo \"API SAGE-NFM funcionando\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.0.0",
+    "redis": "^4.6.7",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/sage-nfm-api.git"
+  },
+  "keywords": [
+    "neuropsicologia",
+    "tdah",
+    "sage-nfm",
+    "api",
+    "nodejs"
+  ],
+  "author": "Petrucio Barros",
+  "license": "MIT"
+}
